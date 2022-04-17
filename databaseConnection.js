@@ -3,10 +3,10 @@ const mysql = require('mysql2');
 const is_heroku = process.env.IS_HEROKU || false;
 
 const dbConfigHeroku = {
-	host: "i0rgccmrx3at3wv3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-	user: "yxt81gjock0onu8x",
-	password: "jq2kmun4jiq2if41",
-	database: "qmzg3lqewrbnsuc3",
+	host: "x8autxobia7sgh74.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+	user: "vvmvssvsbo7h0vly",
+	password: "zmr5abn0rf4zl3ma",
+	database: "bimaefpnsy352d6s",
 	multipleStatements: false,
 	namedPlaceholders: true 
 };
