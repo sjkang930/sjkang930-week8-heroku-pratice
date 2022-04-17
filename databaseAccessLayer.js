@@ -32,7 +32,7 @@ function addRestaurant(postData, callback) {
 	});
 }
 function deleteRestaurant(restaurant_id, callback) {
-	let sqlDeleteRestaurant = "DELETE FROM restaurant WHERE restaurant_id = :userID";
+	let sqlDeleteRestaurant = "DELETE FROM restaurant_review.restaurant (name, description) WHERE restaurant_id = :userID";
 	let params = {
 		userID: restaurant_id
 	};
